@@ -1,0 +1,12 @@
+
+get http://localhost:4004/emprecords/employees
+
+###
+
+post http://localhost:4004/emprecords/employees
+Content-Type: application/json
+
+{ 
+    "name": "Anna Karenina5",
+    "salary": 10
+}
